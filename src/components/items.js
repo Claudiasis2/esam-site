@@ -13,34 +13,28 @@ function Items() {
       <h1> Menu Principal</h1>
       <div className="v-container v-locale--is-ltr container grid">
         <Item
-          className="item mdi-account-box-outline"
           title="PERFIL PERSONAL"
           iconClass={<MdAccountBox />}
         />
         <Item
-          className="item"
           title="REGISTRO DE PROGRAMAS"
           iconClass={<MdAssignment />}
         />
         <Item
-          className="item"
           title="DOCENTES"
           iconClass={<MdSearch />}
         />
         <Item
-          className="item"
           title="POSTULANTES"
           iconClass={<MdHelp />}
         />
         <Item
-          className="item"
           title="PROGRAMAS"
           iconClass={<MdAccountBox />}
         />
         <Item
-          className="item"
           title="CERTIFICACIONES DOCENTES"
-          iconClass={<MdPerson />}
+          iconClass={<MdAccountBox />}
         />
       </div>
     </section>
