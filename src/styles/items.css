@@ -1,0 +1,49 @@
+.v-container {
+    /* width: 100%;
+    padding: 16px;
+    margin-right: auto;
+    margin-left: auto; 
+    direction: ltr */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.v-locale--is-ltr {
+    direction: ltr
+}
+
+.v-locale--is-ltr .float-end,
+.v-locale--is-rtl .float-start {
+    float: right !important
+}
+
+.v-locale--is-ltr .float-start {
+    float: left !important
+}
+
+.v-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    margin: -12px
+}
+
+.item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+
+.items-section {
+    padding: 60px 20px ;
+}
+
+.mdi-account-box-outline:before {
+    content: "\F0007"
+}
+
+.item svg {
+    margin-right: 8px;
+    font-size: 180px;
+  }
