@@ -34,7 +34,7 @@ function Items() {
         />
         <Item
           title="CERTIFICACIONES DOCENTES"
-          iconClass={<MdAccountBox />}
+          iconClass={<MdPerson />}
         />
       </div>
     </section>
